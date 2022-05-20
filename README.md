@@ -1,2 +1,2 @@
 # rinux
-roblox linux shell i guess?
+Linux-like shell for roblox studio.
