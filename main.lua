@@ -1,16 +1,13 @@
 local module = {}
 
-function module.Process(cmd, funcSet, Plugin)
-    for i, v in pairs(Plugin) do
-        print(v)
-    end
+function module.Process(cmd, funcSet, plugin)
     if cmd == "test1" then
         funcSet.println("test1 successful.")
     elseif cmd == "test2" then
         funcSet.println("test2 successful.")
     elseif cmd == "test3" then
-        Plugin:SetSetting("#DEBUG", true)
-        println(tostring(Plugin:GetSetting("#DEBUG")))
+        plugin:SetSetting("#DEBUG", true)
+        println(tostring(plugin:GetSetting("#DEBUG")))
     end
 end
 

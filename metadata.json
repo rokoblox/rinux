@@ -1,6 +1,6 @@
 {
     "version": "0.1.0a",
-    "build": 1,
+    "build": 2,
     "files": {
         "/main": 1,
         "/parser": 1,
