@@ -1,6 +1,6 @@
 local module = {}
 
-function module.Process(cmd, funcSet)
+function module.Process(cmd, funcSet, plugin)
     if cmd == "test1" then
         funcSet.println("test1 successful.")
     elseif cmd == "test2" then
