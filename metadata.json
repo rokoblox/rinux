@@ -1,0 +1,10 @@
+{
+    "version": "0.1.0a",
+    "build": 1,
+    "files": {
+        "/main": 1,
+        "/parser": 1,
+        "/commands/commands": 1,
+        "/commands/build": 1
+    }
+}
